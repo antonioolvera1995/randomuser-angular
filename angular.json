@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "randomuser-angular"
+    }
+  },
+  "defaultProject": "randomuser-angular",
+  "cli": {
+    "analytics": "ee0b5e20-c5ff-4307-ae36-e1b2a333755b"
+  }
 }

@@ -1,0 +1,8 @@
+<section>
+    <div class="card-group wrapp" *ngIf="users">
+   
+        <app-card *ngFor="let item of users;index as i" [genre]="item.gender" [nameUser]="item.username"
+            [city]="item.location.city" [country]="item.location.country" [name]="item.name.first" [age]="item.dob.age"
+            [email]="item.email" [phone]="item.cell" [picture]="item.picture.large" [time]="time[i]"></app-card>
+    </div>
+</section>

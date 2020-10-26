@@ -1,0 +1,10 @@
+.size{
+    width: auto;
+    min-width: 20em;
+    margin: 2em;
+    border-radius: 0.5em;
+}
+img{
+    border-top-right-radius: 0.5em;
+    border-top-left-radius: 0.5em;
+}
