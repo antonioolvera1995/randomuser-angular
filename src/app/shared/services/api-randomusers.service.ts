@@ -13,7 +13,3 @@ export class ApiRandomusersService {
   }
 
 }
-
-export interface Users {
-  name: string
-}

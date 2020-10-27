@@ -25,7 +25,7 @@ export class HomeComponent implements OnInit {
       this.users = data.results;
       console.log(this.users);
       
-    }, (error) => { console.log(error); });
+    }, (error:any) => { console.log(error); });
     
     
   }
